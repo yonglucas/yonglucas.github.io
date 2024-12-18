@@ -1,9 +1,9 @@
 ---
 title: "Lucas Yong"
+image: media/pizza.png
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 15em
 ---
-
-Hi there!
-
-```{r}
-1 + 1
-```

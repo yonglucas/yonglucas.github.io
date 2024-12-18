@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "yonglucas.github.io"
+  title: "Lucas Yong"
   navbar:
     left:
       - href: index.qmd
@@ -15,6 +15,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-editor: visual
+    page-layout: full
 
