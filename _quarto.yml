@@ -5,10 +5,11 @@ project:
 website:
   title: "Lucas Yong"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
@@ -16,4 +17,3 @@ format:
     css: styles.css
     toc: true
     page-layout: full
-

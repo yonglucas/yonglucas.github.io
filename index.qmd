@@ -1,9 +1,19 @@
 ---
-title: "Lucas Yong"
+#title: "Lucas Yong"
 image: media/pizza.png
 toc: false
 about: 
   template: jolla
   image-shape: round
   image-width: 15em
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lucas-yong
+    - icon: github
+      text: GitHub
+      href: https://www.github.com/yonglucas
+    - icon: envelope
+      text: Email
+      href: mailto:lyong@luc.edu
 ---
