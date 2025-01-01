@@ -8,8 +8,20 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      - about.qmd
+      - href: resources.qmd
+        text: Resources
+      #- href: file/path/to/myCV.pdf # providing a relative file path to a pdf will open up a browser-based pdf viewer when clicked
+      #  text: CV
+      #  target: _blank # opens link (or page) in a new browser tab
+      #- icon: github # add icons as navbar buttons
+      #  href: https://github.com/samanthacsik
+      #  target: _blank
+      
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2025, Lucas Yong
+    right: This website is built with [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/yonglucas/yonglucas.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
