@@ -1,5 +1,9 @@
 /*-- scss:defaults --*/
 
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sen:wght@400..800&display=swap');
+
 // Colors
 $dark-green: #858E79;
 $light-green: #D1D9CE;
@@ -9,10 +13,10 @@ $purple: #9158A2;
 $orange: #ad7237;
 
 // Base document colors
-$navbar-bg: $orange; // navbar
-$navbar-fg: $dark-green; // navbar foreground elements
+$navbar-bg: $dark-green; // navbar
+$navbar-fg: $cream; // navbar foreground elements
 $navbar-hl: $purple; // highlight color when hovering over navbar links
-$body-bg: $light-green; // page background 
+$body-bg: $cream; // page background 
 $body-color: $gray; // page text 
 $footer-bg: $cream; // footer 
 $link-color: $purple; // hyperlinks 
@@ -20,3 +24,14 @@ $link-color: $purple; // hyperlinks
 // Inline code
 $code-bg: $cream; // inline code background color
 $code-color: $purple; // inline code text color
+
+/*-- scss:rules --*/
+
+h1, h2 {
+  letter-spacing: 5px;
+  font-weight: 800; // Google fonts tells you which weights your chosen font family allows for!
+}
+
+.title {
+  color: maroon;
+}
